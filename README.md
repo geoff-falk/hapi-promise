@@ -3,6 +3,8 @@ hapi-promise [![Build Status](https://travis-ci.org/valet-io/hapi-promise.png?br
 
 A hapi plugin that allows you to return promises in your request handlers. Based on [miksago's hapi-promise-testing](https://github.com/miksago/hapi-promise-testing).
 
+This is a simple fork to update dependencies and whatnot for Hapi 6.x
+
 ## Usage
 
 [Register the plugin](https://github.com/spumko/hapi/blob/master/docs/Reference.md#packrequirename-options-callback) first. Then, you can call `reply` from any handler with a promise. Example:
